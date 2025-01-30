@@ -14,7 +14,8 @@ namespace SpecFlowProject1.StepDefinitions
             // additional string/Table parameters can be defined on the step definition
             // method. 
             Console.WriteLine($"string: {str}");
-            //throw new PendingStepException();
+            //throw new PendingStepException(); 
+
         }
 
         [Given("the second number is (.*)")]
